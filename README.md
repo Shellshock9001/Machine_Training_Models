@@ -21,20 +21,20 @@ pip install numpy scikit-learn joblib matplotlib seaborn openpyxl
 Clone the repository from GitHub and navigate to the project directory:
 
 ```sh
-git clone https://github.com/Shellshock9001/Training_Models.git
+git clone https://github.com/Shellshock9001/Machine_Training_Models.git
 cd Training_Models
 ```
 ## Running the Script
 To run the script for the first time and create the initial models:
 
 ```sh
-python Shellshock9001/Training_Models/training_models.py
+python Shellshock9001/Machine_Training_Models/training_models.py
 ```
 
 To run the script periodically to incrementally train and evaluate the models with new data:
 
 ```sh
-python Shellshock9001/Training_Models/training_models.py
+python Shellshock9001/Machine_Training_Models/training_models.py
 ```
 
 ## Script Overview
@@ -105,10 +105,10 @@ crontab -e
 #### Add the following line to schedule the script to run daily at midnight:
 
 ```sh
-0 0 * * * /usr/bin/python3 /path/to/your/repository/Shellshock9001/Training_Models/training_models.py
+0 0 * * * /usr/bin/python3 /path/to/your/repository/Shellshock9001/Machine_Training_Models/training_models.py
 ```
 
-#### Replace /path/to/your/repository/Shellshock9001/Training_Models/training_models.py with the actual path to your script.
+#### Replace /path/to/your/repository/Shellshock9001/Machine_Training_Models/training_models.py with the actual path to your script.
 
 ## Explanation of Metrics
 The script evaluates the models and prints/logs the following metrics:
